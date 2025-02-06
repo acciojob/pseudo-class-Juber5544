@@ -1,10 +1,11 @@
-/*  your css code here. If applicable */
-#container{
-	margin: 20px;
-	padding: 20px;
-	border: 1px solid black;
-	font-size: 18px;
+#container {
+    margin: 20px;
+    padding: 20px;
+    text-align: center;
+    font-size: 18px;
+    position: relative; /* Ensures the pseudo-elements are positioned properly */
 }
-/* #container::before{
-	 */
+#red{
+	color: red;
+	font-size: 25px;
 }
